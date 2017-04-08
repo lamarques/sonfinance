@@ -1,0 +1,21 @@
+{
+    "name": "lamarques/financas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogério Lamarques",
+            "email": "rogerio.lamarques@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SONFin\\": "src/"
+        }
+    },
+    "require-dev": {
+        "fzaninotto/faker": "1.6.0"
+    }
+}
